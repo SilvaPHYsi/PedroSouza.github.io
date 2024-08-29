@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="edit.css" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <div id="barra">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Sobre_mim.html">Sobre mim</a></li>
+            <li><a href="educacional.html">Formação educacional e certificados</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+
+    <h1>Caso você queira me contatar:</h1>
+
+    <div class="contatar">
+        <p>Telefone: (55) 32 998365761<br>Email: Pedrosilvaa1004@gmail.com</p><br>
+        <p>Cidade: São João Del Rei; Bairro: Tejuco<br></p>
+        <p>Você quer que eu te envie a mensagem? <br><br>
+           Deixe seu nome: <br><input type="text"><br>
+           Deixe seu email: <br><input type="email"><br>
+           Deixe seu telefone: <br><input type="tel"><br>
+        </p>
+        <button id="enviar">Enviar</button>
+        <p id="mensagem"></p>
+    </div>
+
+    <script>
+        // Obtém o botão e o parágrafo de mensagem
+        const botao = document.getElementById('enviar');
+        const mensagem = document.getElementById('mensagem');
+
+        // Adiciona um evento de clique ao botão
+        botao.addEventListener('click', () => {
+            // Define o texto da mensagem quando o botão é clicado
+            mensagem.textContent = 'Enviado';
+        });
+    </script>
+</body>
+</html>

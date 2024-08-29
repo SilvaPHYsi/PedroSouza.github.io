@@ -1,0 +1,199 @@
+h1{
+    text-align: center;
+    color: rgb(9, 1, 0);
+    background-color:brown ;
+     /*box shadow para dá profundidade e ficar bacana*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/*Deixa o body mais suave e atrativo*/
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f4f4, #c4c4c4);
+    color: #333;
+}
+
+p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: justify;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+}
+
+
+
+#barra ul {
+    box-shadow: 0 4px 2px -2px gray;
+    list-style-type: none;
+    border: 0;
+    margin: 2px, 0, 0, 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+#barra ul li{
+    float: left;
+}
+
+#barra ul li a {
+    color:darkgrey;
+    display: block;
+    text-align: center;
+    padding: 14px 80px ;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#barra ul li a:hover{
+    background-color:rgba(255, 255, 255, 0.811);
+}
+
+
+/*Parte da página quem eu sou*/
+#who{
+    width: 80%;
+    margin: 50px auto;
+    text-align: justify;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+     /*box shadow para dá profundidade e ficar bacana*/
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+}
+.imagem1{
+    justify-content: center;
+    display:flex;
+    gap: 10px;
+}
+
+.imagem1 img{
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.imagens{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagens img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+
+/*Certificados e estudos*/
+#fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+/*Centralizei mais ou menos a foto do certificado, pois não queria colocar ela com as outras*/
+#coders {
+    width: 50%;
+    margin: 30px 400px 50px;
+    border-radius: 10px;
+}
+
+#fotos img {
+    width: 30%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+img {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f4f4f4;
+}
+
+
+
+
+/*Portfolio*/
+
+#portfolio-container {
+    /*O display flex dá mais possibilidade de lidar com as div */
+    display: flex;
+    flex-wrap: wrap;
+    /* space-around vai fazer com que eles tenham mesma distância entre cada um */
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.projeto {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    /*box shadow para dá profundidade e ficar bacana*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.projeto h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.projeto p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/*Melhorei um pouco o link*/
+.projeto a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.projeto a:hover {
+    background-color: #e55335;
+}
+
+
+
+/*Página de contato*/
+.contatar p{
+    width: 80%;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 30px 150px 0px ;
+    color: #e55335;
+}
+/* centralizar o botão enviar*/
+.contatar{
+    text-align: center;
+}
