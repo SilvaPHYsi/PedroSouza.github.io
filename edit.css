@@ -32,6 +32,8 @@ p {
 
 /*Tira as bolinha da lista e coloca espaço entre elas*/
 #barra ul {
+    display: flex;
+    justify-content: space-around;
     box-shadow: 0 4px 2px -2px gray;
     list-style-type: none;
     border: 0;
@@ -48,7 +50,7 @@ p {
     color:darkgrey;
     display: block;
     text-align: center;
-    padding: 14px 130px ;
+    padding: 14px 30px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
