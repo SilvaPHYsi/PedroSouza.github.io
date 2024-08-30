@@ -17,7 +17,7 @@ body {
     background: linear-gradient(135deg, #f4f4f4, #c4c4c4);
     color: #333;
 }
-
+/*Melhora os parágrafos*/
 p {
     width: 80%;
     margin: 50px auto;
@@ -30,7 +30,7 @@ p {
 }
 
 
-
+/*Tira as bolinha da lista e coloca espaço entre elas*/
 #barra ul {
     box-shadow: 0 4px 2px -2px gray;
     list-style-type: none;
@@ -52,7 +52,7 @@ p {
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
-
+/*Mudar a cor quando o mouse pasa por cima*/
 #barra ul li a:hover{
     background-color:rgba(255, 255, 255, 0.811);
 }
